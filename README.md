@@ -2,7 +2,7 @@
 This class allows for easy texture placement inside text (each texture will be scaled horizontally to match text line height, while maintaining original proportions).   
 Other functionalities are: shadow and simple "writing" animation.
 ```
-textWithImages = new TextWithImages(spriteBatch: _spriteBatch, font: fontFreeSansBold, text: "This is a sample text | | | | .",  
+textWithImages = new TextWithImages(spriteBatch: _spriteBatch, font: fontFreeSansBold, text: "This is a sample text | | | | .", imageList: new List<Texture2D> { imageUp, imageEnter, imageSpace, imageUp });
 textWithImages.Update();
 textWithImages.Draw(position: textPos, color: Color.White, textScale: 1f);
 ```
