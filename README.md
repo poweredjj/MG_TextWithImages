@@ -1,4 +1,4 @@
-# MG_TextWithImages - TextWithImages for MonoGame.
+# "Text with images" for MonoGame.
 This class allows for easy texture placement inside text (each texture will be scaled horizontally to match text line height, while maintaining original proportions).   
 Other functionalities are: shadow and simple "writing" animation.
 ```
