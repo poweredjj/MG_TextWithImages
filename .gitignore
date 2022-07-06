@@ -1,0 +1,7 @@
+.vs/
+TextWithImages_demo.Core/bin/
+TextWithImages_demo.Core/obj/
+TextWithImages_demo.Core/Content/bin
+TextWithImages_demo.Core/Content/obj
+TextWithImages_demo.DesktopGL/bin
+TextWithImages_demo.DesktopGL/obj
