@@ -3,8 +3,8 @@ This class allows for easy texture placement inside text (each texture will be s
 Other functionalities are: shadow and simple "writing" animation.
 ```
 textWithImages = new TextWithImages(spriteBatch: _spriteBatch, font: fontFreeSansBold, text: "This is a sample text | | | | .", imageList: new List<Texture2D> { imageUp, imageEnter, imageSpace, imageUp });
-textWithImages.Update();
-textWithImages.Draw(position: textPos, color: Color.White, textScale: 1f);
+textWithImages.Update(); // place inside Update()
+textWithImages.Draw(position: textPos, color: Color.White, textScale: 1f); // place inside Draw()
 ```
 #### You can use this class freely, commercial projects included.
 
