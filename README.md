@@ -38,7 +38,7 @@ textWithImages.Draw(position: textPos, color: Color.White, textScale: 1f);
 
 **Position**: upper-left text corner position.  
 **Color**: text color.  
-**TextScale**: whole text scale (images included).  
+**TextScale**: whole text "block" scale (images included).  
 **ImageOpacity**: opacity of images (does not affect text).  
 **InflatePercent**: changes the size of every image (in place). Allows for big images, overlapping text.  
  
