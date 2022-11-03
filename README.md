@@ -51,7 +51,7 @@ ShadowOffset: shadow offset.
 #### TextWithImages object has some useful properties:
   
 **TextWidth**: text width. Does not account for "textScale" used in Draw(). Useful for calculating draw position.  
-**TextHeight**: text width. Does not account for "textScale" used in Draw(). Useful for calculating draw position.  
+**TextHeight**: text height. Does not account for "textScale" used in Draw(). Useful for calculating draw position.  
 **TextOriginal**: original text, that was inserted.  
 **Text**: modified text, with markers changed to spaces (to match image width properly).  
 **NoOfLines**: text line count.  
